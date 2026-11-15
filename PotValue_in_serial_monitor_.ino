@@ -14,9 +14,9 @@ void loop() {
 int zoomValue = analogRead(pot1); 
 int positionValue = analogRead(pot2); 
 
-serial.print(zoomValue); 
-serial.print(",");
-serial.print(postionValue); 
+Serial.print(zoomValue); 
+Serial.print(",");
+Serial.print(positionValue); 
 
 delay(30); 
 
